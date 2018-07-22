@@ -28,6 +28,8 @@ RSpec.describe Entry do
             expect(entry.email).to eq('augusta.king@lovelace.com')
         end
     end
+        
+    end
     
     # #5
     describe "#to_s" do
@@ -37,5 +39,6 @@ RSpec.describe Entry do
             # #6
             expect(entry.to_s).to eq(expected_string)
         end
-    end
+        
+
     end
