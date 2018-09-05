@@ -19,6 +19,11 @@ class AddressBook
         
         @entries.delete(delete_entry)
     end
+    
+    
+    def nuke
+        @entries = []
+    end
 
     def add_entry(name, phone_number, email)
     # #9
